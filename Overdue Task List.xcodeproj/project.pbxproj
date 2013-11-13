@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE421D8218331B0C00917388 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE421D8118331B0C00917388 /* Foundation.framework */; };
+		FE421D8418331B0C00917388 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE421D8318331B0C00917388 /* CoreGraphics.framework */; };
+		FE421D8618331B0C00917388 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE421D8518331B0C00917388 /* UIKit.framework */; };
+		FE421D8C18331B0C00917388 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE421D8A18331B0C00917388 /* InfoPlist.strings */; };
+		FE421D8E18331B0C00917388 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE421D8D18331B0C00917388 /* main.m */; };
+		FE421D9218331B0C00917388 /* CCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE421D9118331B0C00917388 /* CCAppDelegate.m */; };
+		FE421D9518331B0C00917388 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE421D9318331B0C00917388 /* Main.storyboard */; };
+		FE421D9818331B0C00917388 /* CCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE421D9718331B0C00917388 /* CCViewController.m */; };
+		FE421D9A18331B0C00917388 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE421D9918331B0C00917388 /* Images.xcassets */; };
+		FE421DA118331B0C00917388 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE421DA018331B0C00917388 /* XCTest.framework */; };
+		FE421DA218331B0C00917388 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE421D8118331B0C00917388 /* Foundation.framework */; };
+		FE421DA318331B0C00917388 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE421D8518331B0C00917388 /* UIKit.framework */; };
+		FE421DAB18331B0C00917388 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE421DA918331B0C00917388 /* InfoPlist.strings */; };
+		FE421DAD18331B0C00917388 /* Overdue_Task_ListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE421DAC18331B0C00917388 /* Overdue_Task_ListTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE421DA418331B0C00917388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE421D7618331B0C00917388 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE421D7D18331B0C00917388;
+			remoteInfo = "Overdue Task List";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE421D7E18331B0C00917388 /* Overdue Task List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Overdue Task List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE421D8118331B0C00917388 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FE421D8318331B0C00917388 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FE421D8518331B0C00917388 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FE421D8918331B0C00917388 /* Overdue Task List-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Overdue Task List-Info.plist"; sourceTree = "<group>"; };
+		FE421D8B18331B0C00917388 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FE421D8D18331B0C00917388 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE421D8F18331B0C00917388 /* Overdue Task List-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Overdue Task List-Prefix.pch"; sourceTree = "<group>"; };
+		FE421D9018331B0C00917388 /* CCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCAppDelegate.h; sourceTree = "<group>"; };
+		FE421D9118331B0C00917388 /* CCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCAppDelegate.m; sourceTree = "<group>"; };
+		FE421D9418331B0C00917388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE421D9618331B0C00917388 /* CCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCViewController.h; sourceTree = "<group>"; };
+		FE421D9718331B0C00917388 /* CCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCViewController.m; sourceTree = "<group>"; };
+		FE421D9918331B0C00917388 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FE421D9F18331B0C00917388 /* Overdue Task ListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Overdue Task ListTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE421DA018331B0C00917388 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FE421DA818331B0C00917388 /* Overdue Task ListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Overdue Task ListTests-Info.plist"; sourceTree = "<group>"; };
+		FE421DAA18331B0C00917388 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FE421DAC18331B0C00917388 /* Overdue_Task_ListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Overdue_Task_ListTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE421D7B18331B0C00917388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE421D8418331B0C00917388 /* CoreGraphics.framework in Frameworks */,
+				FE421D8618331B0C00917388 /* UIKit.framework in Frameworks */,
+				FE421D8218331B0C00917388 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE421D9C18331B0C00917388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE421DA118331B0C00917388 /* XCTest.framework in Frameworks */,
+				FE421DA318331B0C00917388 /* UIKit.framework in Frameworks */,
+				FE421DA218331B0C00917388 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE421D7518331B0C00917388 = {
+			isa = PBXGroup;
+			children = (
+				FE421D8718331B0C00917388 /* Overdue Task List */,
+				FE421DA618331B0C00917388 /* Overdue Task ListTests */,
+				FE421D8018331B0C00917388 /* Frameworks */,
+				FE421D7F18331B0C00917388 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE421D7F18331B0C00917388 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE421D7E18331B0C00917388 /* Overdue Task List.app */,
+				FE421D9F18331B0C00917388 /* Overdue Task ListTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE421D8018331B0C00917388 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE421D8118331B0C00917388 /* Foundation.framework */,
+				FE421D8318331B0C00917388 /* CoreGraphics.framework */,
+				FE421D8518331B0C00917388 /* UIKit.framework */,
+				FE421DA018331B0C00917388 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE421D8718331B0C00917388 /* Overdue Task List */ = {
+			isa = PBXGroup;
+			children = (
+				FE421D9018331B0C00917388 /* CCAppDelegate.h */,
+				FE421D9118331B0C00917388 /* CCAppDelegate.m */,
+				FE421D9318331B0C00917388 /* Main.storyboard */,
+				FE421D9618331B0C00917388 /* CCViewController.h */,
+				FE421D9718331B0C00917388 /* CCViewController.m */,
+				FE421D9918331B0C00917388 /* Images.xcassets */,
+				FE421D8818331B0C00917388 /* Supporting Files */,
+			);
+			path = "Overdue Task List";
+			sourceTree = "<group>";
+		};
+		FE421D8818331B0C00917388 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE421D8918331B0C00917388 /* Overdue Task List-Info.plist */,
+				FE421D8A18331B0C00917388 /* InfoPlist.strings */,
+				FE421D8D18331B0C00917388 /* main.m */,
+				FE421D8F18331B0C00917388 /* Overdue Task List-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE421DA618331B0C00917388 /* Overdue Task ListTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE421DAC18331B0C00917388 /* Overdue_Task_ListTests.m */,
+				FE421DA718331B0C00917388 /* Supporting Files */,
+			);
+			path = "Overdue Task ListTests";
+			sourceTree = "<group>";
+		};
+		FE421DA718331B0C00917388 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE421DA818331B0C00917388 /* Overdue Task ListTests-Info.plist */,
+				FE421DA918331B0C00917388 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE421D7D18331B0C00917388 /* Overdue Task List */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE421DB018331B0C00917388 /* Build configuration list for PBXNativeTarget "Overdue Task List" */;
+			buildPhases = (
+				FE421D7A18331B0C00917388 /* Sources */,
+				FE421D7B18331B0C00917388 /* Frameworks */,
+				FE421D7C18331B0C00917388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Overdue Task List";
+			productName = "Overdue Task List";
+			productReference = FE421D7E18331B0C00917388 /* Overdue Task List.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE421D9E18331B0C00917388 /* Overdue Task ListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE421DB318331B0C00917388 /* Build configuration list for PBXNativeTarget "Overdue Task ListTests" */;
+			buildPhases = (
+				FE421D9B18331B0C00917388 /* Sources */,
+				FE421D9C18331B0C00917388 /* Frameworks */,
+				FE421D9D18331B0C00917388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE421DA518331B0C00917388 /* PBXTargetDependency */,
+			);
+			name = "Overdue Task ListTests";
+			productName = "Overdue Task ListTests";
+			productReference = FE421D9F18331B0C00917388 /* Overdue Task ListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE421D7618331B0C00917388 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CC;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Circboxx LLC";
+				TargetAttributes = {
+					FE421D9E18331B0C00917388 = {
+						TestTargetID = FE421D7D18331B0C00917388;
+					};
+				};
+			};
+			buildConfigurationList = FE421D7918331B0C00917388 /* Build configuration list for PBXProject "Overdue Task List" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE421D7518331B0C00917388;
+			productRefGroup = FE421D7F18331B0C00917388 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE421D7D18331B0C00917388 /* Overdue Task List */,
+				FE421D9E18331B0C00917388 /* Overdue Task ListTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE421D7C18331B0C00917388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE421D9A18331B0C00917388 /* Images.xcassets in Resources */,
+				FE421D8C18331B0C00917388 /* InfoPlist.strings in Resources */,
+				FE421D9518331B0C00917388 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE421D9D18331B0C00917388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE421DAB18331B0C00917388 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE421D7A18331B0C00917388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE421D9218331B0C00917388 /* CCAppDelegate.m in Sources */,
+				FE421D8E18331B0C00917388 /* main.m in Sources */,
+				FE421D9818331B0C00917388 /* CCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE421D9B18331B0C00917388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE421DAD18331B0C00917388 /* Overdue_Task_ListTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE421DA518331B0C00917388 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE421D7D18331B0C00917388 /* Overdue Task List */;
+			targetProxy = FE421DA418331B0C00917388 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE421D8A18331B0C00917388 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE421D8B18331B0C00917388 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FE421D9318331B0C00917388 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE421D9418331B0C00917388 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE421DA918331B0C00917388 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE421DAA18331B0C00917388 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE421DAE18331B0C00917388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE421DAF18331B0C00917388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE421DB118331B0C00917388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Overdue Task List/Overdue Task List-Prefix.pch";
+				INFOPLIST_FILE = "Overdue Task List/Overdue Task List-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FE421DB218331B0C00917388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Overdue Task List/Overdue Task List-Prefix.pch";
+				INFOPLIST_FILE = "Overdue Task List/Overdue Task List-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FE421DB418331B0C00917388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Overdue Task List.app/Overdue Task List";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Overdue Task List/Overdue Task List-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Overdue Task ListTests/Overdue Task ListTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FE421DB518331B0C00917388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Overdue Task List.app/Overdue Task List";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Overdue Task List/Overdue Task List-Prefix.pch";
+				INFOPLIST_FILE = "Overdue Task ListTests/Overdue Task ListTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE421D7918331B0C00917388 /* Build configuration list for PBXProject "Overdue Task List" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE421DAE18331B0C00917388 /* Debug */,
+				FE421DAF18331B0C00917388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE421DB018331B0C00917388 /* Build configuration list for PBXNativeTarget "Overdue Task List" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE421DB118331B0C00917388 /* Debug */,
+				FE421DB218331B0C00917388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE421DB318331B0C00917388 /* Build configuration list for PBXNativeTarget "Overdue Task ListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE421DB418331B0C00917388 /* Debug */,
+				FE421DB518331B0C00917388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE421D7618331B0C00917388 /* Project object */;
+}
